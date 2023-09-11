@@ -1,0 +1,87 @@
+<!-- You may check  the file tree in this link so you can located see the files store on the folder :
+     https://github.com/onlyhope10/FrontEndAndIntegration.git -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="album.js"></script>
+    <script src="artists.js"></script>
+    <script src="lyrics.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Section 2: Integration #2</title>
+</head>
+<body>
+    
+    <div id="player">
+        <div class="album">
+            <div class="img1">
+                <img src="./images/Artist.png" alt="Artist" >
+            </div>
+            <div  class="img2">
+                <img src="./images/Vinyl.png" alt="Vinyl" >
+            </div>
+        </div>
+
+        <div class="titleArtist">
+            <div>
+                <h2>All Too Well (Taylor's Version)</h2>
+            </div>
+            <div>
+                <p>Taylor Swift</p>
+            </div>
+        </div>
+
+        <div class="SeekItem">
+            <div class="timer">
+                <div class="t1">5:00</div>
+                <div class="t2">10:13</div>
+            </div>
+            <div class="l1"></div>
+            <div class="l2"></div>
+            <div class="analog"></div>
+        </div>
+
+
+        <div class="buttons">
+            <div class="b1">
+                <img src="./images/Prev_Track.png" alt="prev">
+            </div>
+            <div class="b2">
+                <img src="./images/Play_Button.png" alt="play">
+            </div>
+            <div class="b3">
+                <img src="./images/Next_Track.png" alt="next">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div>
+            <h1>Explore</h1>
+        </div>
+        
+        <div class="items">
+            <div  id="lyrics" onclick="lyrics()">
+                Lyrics
+            </div>
+
+            <div id="OtherAlbums" onclick="OtherAlbums()" >
+                Other Albums
+            </div>
+
+            <div id="RelatedArtists" onclick="RelatedArtists()">
+                Related Artists
+            </div>
+        </div>
+
+        <div id="output">
+            <!-- img here -->
+            
+        </div>
+    </div>
+    
+
+    
+</body>
+</html>
